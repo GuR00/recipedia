@@ -52,6 +52,7 @@ app.use(passport.session());
 if (process.env.NODE_ENV === "production") {
   app.use(express.static("/client/build"));
 }
+
 // Bring in all of the routes from the routes folder r
 app.use("/api",apiRoutes);
 app.use(routes)
