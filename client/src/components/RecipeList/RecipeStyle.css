@@ -1,0 +1,14 @@
+.instructions{
+    float: left;
+    position: fixed;
+    margin-left: -20%;
+}
+
+.ingredients {
+    text-align: left;
+    float: right;
+}
+
+.recipelink {
+    margin-left: 40%
+}
